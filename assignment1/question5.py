@@ -24,12 +24,12 @@ def twoStringFirstMiddleLastChar(str1, str2):
   result += middleCharHelper(str2)
   result += str1[len(str1) - 1]
   result += str2[len(str2) - 1]
-  return print(result)
+  return result
 
 # Test Cases
 s1 = "America"
 s2 = "Japan"
 s3 = "Mexico"
 s4 = "Canada"
-twoStringFirstMiddleLastChar(s1, s2) # AJrpan
-twoStringFirstMiddleLastChar(s3, s4) # MCxinaoa
+print(twoStringFirstMiddleLastChar(s1, s2)) # AJrpan
+print(twoStringFirstMiddleLastChar(s3, s4)) # MCxinaoa
