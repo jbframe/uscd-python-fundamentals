@@ -14,9 +14,9 @@ def reverseLongString():
     longList = longString.split(" ")
     try:
       if len(longList) < 2:
-        raise Expection("your string is only one word!")
+        raise Exception
     except Exception:
-      print("your string is only one word!")
+      print("Your string must be two or more words!")
     else:
       for i in reversed(longList):
         reverseString += i + " "
