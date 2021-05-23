@@ -18,7 +18,6 @@ def isPrime():
       inputComplete = True
   # recursive function
   def checkForPrime(n, div = None):
-    # base case
     if div is None:
         div = n - 1
     while div >= 2:
