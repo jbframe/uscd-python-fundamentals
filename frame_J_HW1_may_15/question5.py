@@ -18,6 +18,7 @@ def twoStringFirstMiddleLastChar(str1, str2):
       middleChar = int((len(str) - 1) / 2)
       return str[middleChar]
     else:
+      # assume that if a string has even length the user requires both middle characters returned.
       firstMiddleChar = int(len(str) / 2)
       return str[firstMiddleChar - 1] + str[firstMiddleChar]
   result += middleCharHelper(str1)
