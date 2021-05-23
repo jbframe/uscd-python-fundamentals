@@ -13,3 +13,23 @@
 # >>> 1256
 # 1 heart, 1 spade
 # ...
+
+import random
+
+def heartsAndSpades():
+  guessCount = 0
+  guesses = List()
+  print("Welcome to the Hearts and Spades Game!")
+  NUMBER = random.randint(0, 9999)
+  while True:
+    try:
+      guess = int(input("Please enter your guess :"))
+      if isinstance(numberOfGuesses, int) is False or numberOfGuesses < 1:
+        raise Exception
+    except Exception:
+      print("Please be sure to make your input as a positive integer number!")
+    else:
+      guessCount += 1
+      #### TBD
+
+heartsAndSpades()
