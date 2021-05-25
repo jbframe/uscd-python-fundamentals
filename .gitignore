@@ -1,5 +1,6 @@
 .DS_Store
 *.zip
+helloworld.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
