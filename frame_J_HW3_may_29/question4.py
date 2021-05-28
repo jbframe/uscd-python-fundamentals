@@ -9,6 +9,7 @@ def countLinesAndWords(fileName):
   for line in fHandle:
     lineCount += 1
     wordCount += len(line.rstrip().split(' '))
+  fHandle.close()
   print("The file " + str(fileName) + " has " + str(lineCount) + " lines and " + str(wordCount) + " words.")
 
 # Tests

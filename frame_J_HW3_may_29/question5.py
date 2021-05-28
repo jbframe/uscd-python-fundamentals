@@ -17,7 +17,8 @@ def writeDocumentBackwardToFile(fileName):
     if i != len(resultLineList) - 1:
       result += '\n'
   newFHandle.write(result)
-
+  fHandle.close()
+  newFHandle.close()
 # Tests
 fileName = 'About_Python-1.txt'
 writeDocumentBackwardToFile(fileName) # Expected result: A new file called DocumentBackward.txt with backwards txt is created
