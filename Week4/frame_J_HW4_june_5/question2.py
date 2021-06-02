@@ -15,3 +15,4 @@
 def verifyCreditCardNumber(ccNumber):
   return "The card is valid"
 print(verifyCreditCardNumber(37562198673)) # Expected "The card is valid"
+print(verifyCreditCardNumber(0)) # Expected "The card is invalid"
