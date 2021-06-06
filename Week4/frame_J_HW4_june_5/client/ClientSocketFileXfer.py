@@ -33,7 +33,7 @@ with open(filename, "rb") as f:
         if not bytes_read:
             # file transmitting is done
             break
-        # we use sendall to assure transimission in 
+        # we use sendall to assure transimission in
         # busy networks
         s.sendall(bytes_read)
         # update the progress bar
