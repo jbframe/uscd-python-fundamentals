@@ -1,15 +1,24 @@
 # This final project is designed to incorporate all the tools learned throughout the course. You will need to create a class that handles image and audio processing methods. Follow the steps below to complete the project:
 
 # 1. Name your class MMedia_Processing
-
 # 2. You will be creating two methods. Name the first method ImgProc and the second AudProc
-
 # 3. Method 1 will read the image file attached here download
-
 # 4. Use the following libraries for your work
-
 # import matplotlib.pyplot as plt
 # import matplotlib.image as mpimg
+
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+class MMedia_Processing:
+    def __init__(self):
+
+    def ImgProc(self):
+
+    def AudProc(self):
+
+
+
 
 # 5. Use the mpimg imread method to read in the image file attached above
 
